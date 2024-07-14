@@ -1,5 +1,5 @@
 # ImageClassifier: A web portal for image classification
-##Overview
+## Overview
 The objective of this project was to realise a web portal for the classification of images belonging to specific macrocategories (e.g. faces, objects, landscapes), for which specific categories (e.g. gender and age for a face) were identified, in order to ensure their classification by a series of neural networks. Specifically, the images were characterised by macrocategories (Face Counting, People Counting, Vehicle Counting and Face Analysis) to which specific categories were associated: for Face Counting, People Counting
 and Vehicle Counting, the selection related to the number of faces, people and vehicles was used, for the macrocategory Face Analysis the subjects of the classification were the age, gender, ethnicity and emotion of the face in the image. The neural networks used were: Count Faces, Count People, Count Vehicles, Face Bio. 
 The portal was to be structured in such a way that the non-authenticated user would only see a page with 10 images, possibly divided into macrocategories, without any additional information, while the authenticated user could select a macrocategory and classify an image shown on the page, i.e. select the category to which he or she thought it belonged. The user becomes, therefore, the protagonist in the process of choosing the macrocategory, the image to be analysed
@@ -15,8 +15,7 @@ This phase consisted of:
 redundancy analysis, choice of main identifiers) and translation, concluded with the verification of adherence to normal forms(Boyce-Codd), according to the normalisation theory.
 We then proceeded to create the database, the various
 relations and the triggers to satisfy the identified rules (minimum cardinality of the relations and updating the performance of the neural networks).
-Both the creation of the back-end and front-end components required the application of languages for the creation of static and dynamic web pages (HTML, CSS and JavaScript). In
-specifically for the realisation of the front-end component, the design templates based on HTML, CSS and JavaScript extensions provided by the **Bootstrap framework** have been used. For the realisation of the back-end component, the support offered by the
+Both the creation of the back-end and front-end components required the application of languages for the creation of static and dynamic web pages (HTML, CSS and JavaScript). Specifically for the realisation of the front-end component, the design templates based on HTML, CSS and JavaScript extensions provided by the **Bootstrap framework** have been used. For the realisation of the back-end component, the support offered by the
 **Django framework** structured for the development of applications according to the *'Model-Template-View'* paradigm have been employed. The Python language was adopted both in the realisation of the back-end and in the management of the
 image analysis services based on neural networks, as well as for the integration of the latter.
 
@@ -56,3 +55,9 @@ reflect on the contributions to innovation made by artificial intelligence.
 - It is possible to access to admin section using the URL:      ```http://localhost:8000/admin/```, entering with the superuser profile previously created.
 
 In subsequent accesses to the portal, after configuring it as described above, it is possible to open it and run the server by double-clicking on [`AvviaconChrome.bat`](TSW21_04/IC_dj/AvviaconChrome.bat) or [`AvviaconEdge.bat`](TSW21_04/IC_dj/AvviaconEdge.bat)
+
+DEMO
+[Here]() it is possible to see a demo video of the developed system and all the implemented features.
+
+Feedback
+For any feedback, questions or inquiries, please contact the project maintainers listed in the Contributors section.
