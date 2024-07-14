@@ -1,7 +1,7 @@
 # ImageClassifier: A web portal for image classification
 ## Overview
 <div align='center'>
-  <img src="Report and Presentation/Camilla/PortalMain.png" alt="Portal Web" style="width:50%; max-width:400px;">
+  <img src="Report and Presentation/Camilla/PortalMain.png" alt="Portal Web" style="width:80%; max-width:800px;">
 </div>
 
 The objective of this project was to realise a web portal for the classification of images belonging to specific macrocategories (e.g. faces, objects, landscapes), for which specific categories (e.g. gender and age for a face) were identified, in order to ensure their classification by a series of neural networks. Specifically, the images were characterised by macrocategories (Face Counting, People Counting, Vehicle Counting and Face Analysis) to which specific categories were associated: for Face Counting, People Counting
