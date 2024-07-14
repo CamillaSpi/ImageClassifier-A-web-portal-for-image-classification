@@ -1,5 +1,9 @@
 # ImageClassifier: A web portal for image classification
 ## Overview
+<div align='center'>
+  <img src="Report and Presentation/Camilla/PortalMain.png" alt="Portal Web" style="width:50%; max-width:400px;">
+</div>
+
 The objective of this project was to realise a web portal for the classification of images belonging to specific macrocategories (e.g. faces, objects, landscapes), for which specific categories (e.g. gender and age for a face) were identified, in order to ensure their classification by a series of neural networks. Specifically, the images were characterised by macrocategories (Face Counting, People Counting, Vehicle Counting and Face Analysis) to which specific categories were associated: for Face Counting, People Counting
 and Vehicle Counting, the selection related to the number of faces, people and vehicles was used, for the macrocategory Face Analysis the subjects of the classification were the age, gender, ethnicity and emotion of the face in the image. The neural networks used were: Count Faces, Count People, Count Vehicles, Face Bio. 
 The portal was to be structured in such a way that the non-authenticated user would only see a page with 10 images, possibly divided into macrocategories, without any additional information, while the authenticated user could select a macrocategory and classify an image shown on the page, i.e. select the category to which he or she thought it belonged. The user becomes, therefore, the protagonist in the process of choosing the macrocategory, the image to be analysed
@@ -57,7 +61,7 @@ reflect on the contributions to innovation made by artificial intelligence.
 In subsequent accesses to the portal, after configuring it as described above, it is possible to open it and run the server by double-clicking on [`AvviaconChrome.bat`](TSW21_04/IC_dj/AvviaconChrome.bat) or [`AvviaconEdge.bat`](TSW21_04/IC_dj/AvviaconEdge.bat)
 
 DEMO
-[Here]() it is possible to see a demo video of the developed system and all the implemented features.
+[Here](https://www.youtube.com/playlist?list=PLVKg_HkLrI9FmBmnSPAewnJKdnxcu7r2n) it is possible to see a demo of the developed system and all the implemented features.
 
 Feedback
 For any feedback, questions or inquiries, please contact the project maintainers listed in the Contributors section.
